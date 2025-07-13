@@ -1,0 +1,19 @@
+meta {
+  name: DLSite
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://www.dlsite.com/maniax/ranking/day?category=game&sort=sale&date=30d/&lang%5B0%5D=zh_tw&lang%5B1%5D=zh_cn
+  body: none
+  auth: inherit
+}
+
+params:query {
+  category: game
+  sort: sale
+  date: 30d/
+  lang[0]: zh_tw
+  lang[1]: zh_cn
+}

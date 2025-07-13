@@ -1,0 +1,31 @@
+meta {
+  name: 条目搜索
+  type: http
+  seq: 1
+}
+
+post {
+  url: https://api.bgm.tv/v0/search/subjects
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "keyword": "string",
+    "sort": "rank",
+    "filter": {
+      "type": [
+        2
+      ],
+      "meta_tags": [],
+      "tag": [],
+      "air_date": [],
+      "rating": [],
+      "rank": [
+        "<=10"
+      ],
+      "nsfw": false
+    }
+  }
+}
