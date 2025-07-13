@@ -1,0 +1,16 @@
+meta {
+  name: 分页获取知识库文章列表
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://api.cnblogs.com/api/KbArticles?pageIndex=1&pageSize=10
+  body: none
+  auth: inherit
+}
+
+params:query {
+  pageIndex: 1
+  pageSize: 10
+}

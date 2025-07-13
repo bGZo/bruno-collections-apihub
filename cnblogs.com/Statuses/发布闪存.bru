@@ -1,0 +1,18 @@
+meta {
+  name: 发布闪存
+  type: http
+  seq: 2
+}
+
+post {
+  url: https://api.cnblogs.com/api/statuses
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "Content": "hello world from bruno",
+    "IsPrivate": true
+  }
+}
