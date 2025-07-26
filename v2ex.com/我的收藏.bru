@@ -1,0 +1,15 @@
+meta {
+  name: 我的收藏
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://www.v2ex.com/my/topics
+  body: none
+  auth: inherit
+}
+
+headers {
+  Cookie: {{cookie}}
+}

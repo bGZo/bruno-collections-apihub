@@ -1,0 +1,19 @@
+meta {
+  name: 觀看紀錄
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://api.gamer.com.tw/anime/v3/history.php?page=1
+  body: none
+  auth: inherit
+}
+
+params:query {
+  page: 1
+}
+
+headers {
+  Cookie: {{cookie}}
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "v2ex.com",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

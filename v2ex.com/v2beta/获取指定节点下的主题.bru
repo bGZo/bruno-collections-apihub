@@ -1,0 +1,15 @@
+meta {
+  name: 获取指定节点下的主题
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://www.v2ex.com/api/v2/nodes/flamewar/topics?p=1
+  body: none
+  auth: inherit
+}
+
+params:query {
+  p: 1
+}

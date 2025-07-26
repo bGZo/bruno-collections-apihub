@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "ani.gamer.com.tw",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
