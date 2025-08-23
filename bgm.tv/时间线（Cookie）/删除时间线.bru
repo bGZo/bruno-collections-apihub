@@ -1,0 +1,37 @@
+meta {
+  name: 删除时间线
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://bgm.tv/erase/tml/55357425?ajax=1&gh=d27aae5e
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ajax: 1
+  gh: d27aae5e
+}
+
+headers {
+  Accept-Encoding: gzip, deflate, br, zstd
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0
+  Accept: */*
+  Accept-Language: en,zh-CN;q=0.7,zh;q=0.3
+  Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+  X-Requested-With: XMLHttpRequest
+  DNT: 1
+  Sec-GPC: 1
+  Connection: keep-alive
+  Referer: https://bgm.tv/user/bool/timeline
+  Cookie: {{cookie}}
+  Sec-Fetch-Dest: empty
+  Sec-Fetch-Mode: cors
+  Sec-Fetch-Site: same-origin
+  Priority: u=0
+  Pragma: no-cache
+  Cache-Control: no-cache
+  TE: trailers
+}

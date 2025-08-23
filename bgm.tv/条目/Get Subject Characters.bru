@@ -1,0 +1,15 @@
+meta {
+  name: Get Subject Characters
+  type: http
+  seq: 6
+}
+
+get {
+  url: https://api.bgm.tv/v0/subjects/2/characters
+  body: none
+  auth: inherit
+}
+
+headers {
+  accept: application/json
+}

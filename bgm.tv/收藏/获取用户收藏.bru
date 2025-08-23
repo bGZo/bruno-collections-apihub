@@ -1,0 +1,18 @@
+meta {
+  name: 获取用户收藏
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://api.bgm.tv/v0/users/dandelion_fs/collections?subject_type&type&limit=1&offset=200
+  body: none
+  auth: inherit
+}
+
+params:query {
+  subject_type: 
+  type: 
+  limit: 1
+  offset: 200
+}

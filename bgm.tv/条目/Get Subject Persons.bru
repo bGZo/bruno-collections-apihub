@@ -1,0 +1,15 @@
+meta {
+  name: Get Subject Persons
+  type: http
+  seq: 5
+}
+
+get {
+  url: https://api.bgm.tv/v0/subjects/1/persons
+  body: none
+  auth: inherit
+}
+
+headers {
+  accept: application/json
+}

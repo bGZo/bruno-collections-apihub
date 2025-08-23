@@ -1,0 +1,23 @@
+meta {
+  name: 新增或修改用户单个条目收藏
+  type: http
+  seq: 1
+}
+
+post {
+  url: https://api.bgm.tv/v0/users/-/collections/1
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "type": 1,
+    "rate": 0,
+    "ep_status": 0,
+    "vol_status": 0,
+    "comment": "",
+    "private": false,
+    "tags": []
+  }
+}
